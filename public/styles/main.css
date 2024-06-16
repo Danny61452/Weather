@@ -1,0 +1,96 @@
+body{
+    background-color: #0f2942;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+}
+/* Form */
+
+.form-container{
+    width: 100%;
+}
+
+.form {
+    background-color: #ffffff1c;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    margin: auto;
+    
+    
+} 
+    
+.label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: rgba(255, 255, 255, 0.418);
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border: 0px solid #cccccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+/* Removing spinner arrows */
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* input[type=number] {
+    -moz-appearance: textfield;
+} */
+
+.submit {
+    width: 50%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: large;
+    font-weight: 800;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+}
+
+.submit:hover {
+    background-color: #317434;
+    transition: 500ms;
+}
+
+.home{
+    width: 20%;
+    padding: 10px;
+    background-color: #112911;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: large;
+    font-weight: 800;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.home:hover{
+    background-color: #081308;
+    transition: 500ms;
+}
