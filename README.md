@@ -12,7 +12,7 @@ A simple weather application that allows users to input their longitude and lati
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/Danny61452/Weather.git
+    git clone https://github.com/Danny61452/Weather-App.git
     ```
 2. Navigate to the project directory:
     ```bash
